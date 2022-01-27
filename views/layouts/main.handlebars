@@ -1,0 +1,45 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+    ></script>
+    <title>The Tech Blog</title>
+  </head>
+
+  <body class="flex-column min-100-vh">
+    <nav class="navbar">
+      <ul>
+        <li class="li-inline nav-item"><a href="/home">Home</a></li>
+        <li class="li-inline nav-item"><a href="/dashboard">Dashboard</a></li>
+        <li class="li-inline nav-item"><a href="/login">Login</a></li>
+        <li class="li-inline nav-item"><a
+            href="/logout"
+            id="logout"
+          >Logout</a></li>
+      </ul>
+    </nav>
+    <header class="hero">
+      <h1 class="app-title"><a href="/"></a></h1>
+    </header>
+
+    <main class="col-auto">
+      {{{body}}}
+    </main>
+
+    <footer class="flex-row justify-center">
+      &copy; 2020 Sean Cone
+    </footer>
+  </body>
+
+  <script src="/javascript/logout.js"></script>
+
+</html>
