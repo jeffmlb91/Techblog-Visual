@@ -6,6 +6,7 @@ const { Comment } = require('../../models');
 //FIRST GET ALL the comments available
 
 router.get('/', (req, res) => {
+    //console.log(comment, data)
     Comment.findAll()
     .then(dbCommentData => res.json(dbCommentData))
     .catch(err => {
