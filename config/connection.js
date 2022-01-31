@@ -11,7 +11,7 @@ const sequelize = new Sequelize(
   {
     host: "localhost",
     dialect: "mysql",
-    prot: 3005,
+    prot: 3006,
   }
 );
 module.exports = sequelize;
